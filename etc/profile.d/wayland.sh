@@ -4,6 +4,7 @@
 # settings these in home dir
 #export XDG_CURRENT_DESKTOP=sway
 #export XDG_SESSION_DESKTOP=sway
+
 export XDG_SESSION_TYPE=wayland
 
 # Ubuntu Sway specific config dir
