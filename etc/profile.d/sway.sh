@@ -1,8 +1,9 @@
 #https://github.com/Ubuntu-Sway/ubuntusway-default-settings/blob/lunar/etc/profile.d/sway.sh
 
 # Set XDG_CURRENT_DESKTOP to sway (for screencasting and screensharing capabilities)
-export XDG_CURRENT_DESKTOP=sway
-export XDG_SESSION_DESKTOP=sway
+# settings these in home dir
+#export XDG_CURRENT_DESKTOP=sway
+#export XDG_SESSION_DESKTOP=sway
 export XDG_SESSION_TYPE=wayland
 
 # Ubuntu Sway specific config dir
