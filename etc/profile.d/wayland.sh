@@ -1,7 +1,6 @@
 #https://github.com/Ubuntu-Sway/ubuntusway-default-settings/blob/lunar/etc/profile.d/sway.sh
 
 # Set XDG_CURRENT_DESKTOP to sway (for screencasting and screensharing capabilities)
-# settings these in home dir
 #export XDG_CURRENT_DESKTOP=sway
 #export XDG_SESSION_DESKTOP=sway
 
@@ -28,7 +27,7 @@ export NO_AT_BRIDGE=1
 export BEMENU_BACKEND=wayland
 
 
-# Check if system is running in virtual machine
+# Check if system is running in virtual machines
 case "$(systemd-detect-virt)" in
 qemu)
   export WLR_RENDERER=pixman
