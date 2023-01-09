@@ -39,6 +39,9 @@ kvm)
 oracle)
   export WLR_NO_HARDWARE_CURSORS=1
   ;;
+vmware)
+  export WLR_NO_HARDWARE_CURSORS=1
+  ;;
 esac
 
 # Apply Nvidia-specific variables
